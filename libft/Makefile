@@ -6,13 +6,15 @@
 #    By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/11/03 13:17:44 by ggilaber          #+#    #+#              #
-#    Updated: 2014/11/13 21:33:18 by ggilaber         ###   ########.fr        #
+#    Updated: 2014/11/19 23:49:44 by ggilaber         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+.PHONY: clean all re fclean
+
 NAME = libft.a
 
-INC = .
+INC = ./includes
 
 SRC = ft_atoi.c ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c \
 	ft_isprint.c ft_toupper.c ft_tolower.c ft_strlen.c ft_putchar_fd.c \
@@ -35,11 +37,11 @@ OBJ = $(SRC:.c=.o)
 
 all : $(NAME)
 
-$(NAME) : $(OBJ) libft.h
-	ar rc  $(NAME) $(OBJ)
+$(NAME) : $(OBJ)
+	ar rc  $(NAME) $(OBJ) 
 	ranlib $(NAME)
 
-%.o : %.c libft.h
+%.o : %.c
 	gcc -c $(FLAGS) $^ -I $(INC)
 
 clean :
