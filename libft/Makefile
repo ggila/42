@@ -6,13 +6,23 @@
 #    By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/11/03 13:17:44 by ggilaber          #+#    #+#              #
-#    Updated: 2014/11/13 21:33:18 by ggilaber         ###   ########.fr        #
+#    Updated: 2015/01/16 02:02:14 by ggilaber         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libft.a
+.PHONY : clean fclean re all
 
-INC = .
+C_DEFAULT =		\033[0m
+C_BLACK = 		\033[1;30m
+C_GREY =		\033[1;37m
+
+ITER = 0
+
+CC = gcc
+
+FLAGS = -Wall -Werror -Wextra
+
+NAME = libft.a
 
 SRC = ft_atoi.c ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c \
 	ft_isprint.c ft_toupper.c ft_tolower.c ft_strlen.c ft_putchar_fd.c \
@@ -27,25 +37,34 @@ SRC = ft_atoi.c ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c \
 	ft_strrchr.c ft_strnstr.c ft_strsplit.c ft_lstnew.c ft_putchar_list.c \
 	ft_putstr_list.c ft_putnbr_list.c ft_memclr.c ft_lstdelone.c ft_lstadd.c \
 	ft_lstdup.c ft_lstpush.c ft_lstiter.c ft_lstmap.c ft_lstdel.c ft_lstlen.c \
-	ft_strndup.c ft_strcount.c
+	ft_strndup.c ft_strcount.c ft_putstrstr.c ft_strstrlen.c
 
-FLAGS = -Wall -Werror -Wextra -O3
+OBJ_DIR = obj
+OBJ = $(SRC:%.c=%.o)
+OBJ_PATH = $(addprefix $(OBJ_DIR)/, $(OBJ))
 
-OBJ = $(SRC:.c=.o)
+INC = -I./inc
 
 all : $(NAME)
 
-$(NAME) : $(OBJ) libft.h
-	ar rc  $(NAME) $(OBJ)
-	ranlib $(NAME)
+$(NAME) : echo_libft $(OBJ_PATH) ./inc/libft.h
+	@echo "\n$(C_BLACK)ar rc $(NAME) file.o"
+	@ar rc  $(NAME) $(OBJ_PATH)
+	@ranlib $(NAME)
+	@echo "$(C_BLACK)rm -rf ./libft/obj/ $(C_DEFAULT)"
+	@rm -rf $(OBJ_DIR)
 
-%.o : %.c libft.h
-	gcc -c $(FLAGS) $^ -I $(INC)
+echo_libft :
+	@echo "$(C_BLACK)make ./libft/libft.a$(C_DEFAULT)"
 
-clean :
-	rm -rf $(OBJ)
+$(OBJ_DIR)/%.o : %.c
+	@printf "$(C_BLACK).$(C_DEFAULT)"
+	@mkdir -p $(OBJ_DIR)
+	@$(CC) $(FLAGS) $(INC) -c $^ -o $@
 
-fclean : clean
-	rm -rf $(NAME)
+fclean :
+	@echo "$(C_BLACK)rm -rf ./libft/$(NAME)"
+	@rm -rf $(NAME)
 
 re : fclean all
+
