@@ -6,11 +6,11 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 11:37:49 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/09 23:30:33 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:17:19 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_striter(char *s, void (*f)(char *))
+void	ft_striter(char *s, void (*f)(char *))
 {
 	if (!s || !f)
 		return ;

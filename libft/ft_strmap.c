@@ -6,20 +6,20 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 19:56:38 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/13 18:34:02 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:20:49 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strmap(char const *s, char (*f)(char))
+char	*ft_strmap(char const *s, char (*f)(char))
 {
 	char	*str;
 	size_t	i;
 
 	if (!s || !f)
 		return (NULL);
-	if (!(str = ft_strdup (s)))
+	if (!(str = ft_strdup(s)))
 		return (NULL);
 	i = -1;
 	while (str[++i])

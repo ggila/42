@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/07 00:29:07 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/07 01:37:43 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:10:52 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_itoa(int n)
+char	*ft_itoa(int n)
 {
 	char *c;
 

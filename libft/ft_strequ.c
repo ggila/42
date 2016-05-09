@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 13:12:21 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/06 13:12:26 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:17:19 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_strequ(char const *s1, char const *s2)
+int	ft_strequ(char const *s1, char const *s2)
 {
 	return (!ft_strcmp(s1, s2));
 }

@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/07 03:29:09 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/07 17:18:38 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:19:51 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
 
-void *ft_memcpy(void *dst, const void *src, size_t n)
+void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
 	size_t i;
 

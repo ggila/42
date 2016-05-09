@@ -6,11 +6,11 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 17:26:09 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/03 18:01:15 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:09:56 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isdigit(int c)
+int	ft_isdigit(int c)
 {
 	if ((c >= '0' && c <= '9'))
 		return (1);

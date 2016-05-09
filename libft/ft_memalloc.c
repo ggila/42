@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/08 20:09:50 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/09 18:37:16 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:19:51 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-void *ft_memalloc(size_t size)
+void	*ft_memalloc(size_t size)
 {
 	char	*str;
 	size_t	i;

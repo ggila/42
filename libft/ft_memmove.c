@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/08 00:29:14 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/08 21:05:11 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:19:51 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void *ft_memmove(void *dst, const void *src, size_t len)
+void	*ft_memmove(void *dst, const void *src, size_t len)
 {
 	size_t i;
 

@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/09 18:45:08 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/09 19:35:03 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:20:23 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t ft_strlcat(char *dst, const char *src, size_t size)
+size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
 	size_t srclen;
 	size_t dstlen;

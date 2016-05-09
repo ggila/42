@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 20:03:39 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/09 23:31:14 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:19:51 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strmapi(char const *s, char (*f)(unsigned int, char))
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	char			*str;
 	unsigned int	i;

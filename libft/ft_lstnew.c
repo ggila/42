@@ -6,14 +6,14 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/10 11:25:01 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/12 00:03:22 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:21:15 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
 
-t_list *ft_lstnew(void const *content, size_t content_size)
+t_list	*ft_lstnew(void const *content, size_t content_size)
 {
 	t_list *new;
 

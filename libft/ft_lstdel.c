@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/10 15:13:02 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/10 19:37:28 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:17:19 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_lstdel(t_list **alst, void (*del)(void *, size_t))
+void	ft_lstdel(t_list **alst, void (*del)(void *, size_t))
 {
 	t_list *temp;
 

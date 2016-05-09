@@ -6,11 +6,11 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/09 20:01:07 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/09 20:36:36 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:17:19 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_strrep(char *str, char c1, char c2)
+void	ft_strrep(char *str, char c1, char c2)
 {
 	if (!str)
 		return ;

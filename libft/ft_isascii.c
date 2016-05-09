@@ -6,11 +6,11 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 18:16:21 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/03 18:29:41 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:09:46 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isascii(int c)
+int	ft_isascii(int c)
 {
 	if (c <= 127)
 		return (1);

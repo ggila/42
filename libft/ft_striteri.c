@@ -6,11 +6,11 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 12:56:14 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/09 12:34:50 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:17:19 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_striteri(char *s, void (*f)(unsigned int, char *))
+void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
 	unsigned int i;
 

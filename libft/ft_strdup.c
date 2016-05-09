@@ -6,14 +6,14 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/05 10:12:55 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/09 23:32:16 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:19:51 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include "libft.h"
 
-char *ft_strdup(const char *s1)
+char	*ft_strdup(const char *s1)
 {
 	int		n;
 	char	*dst;

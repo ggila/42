@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/10 16:18:02 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/11 12:01:50 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:21:52 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list *ft_lstdup(t_list *todup)
+t_list	*ft_lstdup(t_list *todup)
 {
 	t_list *list;
 

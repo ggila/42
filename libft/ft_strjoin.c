@@ -6,14 +6,14 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 22:53:49 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/12 00:43:45 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:19:51 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
 
-char *ft_strjoin(char const *s1, char const *s2)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
 	size_t	l1;
 	size_t	l2;

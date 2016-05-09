@@ -6,11 +6,11 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 20:36:30 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/03 21:54:11 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:17:19 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_tolower(int n)
+int	ft_tolower(int n)
 {
 	if (n >= 'A' && n <= 'Z')
 		n += 'a' - 'A';

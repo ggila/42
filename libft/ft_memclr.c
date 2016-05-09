@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/10 15:38:31 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/10 15:47:13 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:17:19 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
 
-void ft_memclr(void *p, size_t n)
+void	ft_memclr(void *p, size_t n)
 {
 	size_t i;
 

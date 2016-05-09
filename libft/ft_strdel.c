@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 19:39:21 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/09 23:42:53 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:17:19 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-void ft_strdel(char **as)
+void	ft_strdel(char **as)
 {
 	if (!as)
 		return ;

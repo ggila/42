@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/09 12:12:34 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/09 12:24:26 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:19:51 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
 
-char *ft_strnstr(const char *s1, const char *s2, size_t n)
+char	*ft_strnstr(const char *s1, const char *s2, size_t n)
 {
 	size_t i;
 	size_t j;

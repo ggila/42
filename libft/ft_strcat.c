@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/05 16:19:05 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/09 23:44:12 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:19:51 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strcat(char *s1, const char *s2)
+char	*ft_strcat(char *s1, const char *s2)
 {
 	size_t i;
 	size_t j;

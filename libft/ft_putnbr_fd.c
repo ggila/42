@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/04 17:22:23 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/05 10:00:29 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:17:19 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_putnbr_fd(int n, int fd)
+void	ft_putnbr_fd(int n, int fd)
 {
 	if (n < 0)
 	{

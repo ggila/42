@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/07 17:19:15 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/11 10:14:40 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:17:19 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_putmemchar(const void *p, size_t n)
+void	ft_putmemchar(const void *p, size_t n)
 {
 	size_t i;
 

@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 19:09:38 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/06 19:37:26 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:19:51 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-char *ft_strnew(size_t size)
+char	*ft_strnew(size_t size)
 {
 	size_t	i;
 	char	*str;

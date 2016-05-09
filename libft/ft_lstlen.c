@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/10 20:23:07 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/10 20:27:42 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:17:19 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_lstlen(t_list *lst)
+int	ft_lstlen(t_list *lst)
 {
 	size_t i;
 

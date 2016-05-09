@@ -6,11 +6,11 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/08 20:04:10 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/08 20:08:27 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:17:19 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_strclr(char *s)
+void	ft_strclr(char *s)
 {
 	if (!s)
 		return ;

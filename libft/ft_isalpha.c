@@ -6,11 +6,11 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 16:41:08 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/03 17:20:21 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:09:29 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isalpha(int c)
+int	ft_isalpha(int c)
 {
 	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 		return (1);

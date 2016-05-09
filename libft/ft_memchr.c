@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/08 00:38:49 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/09 12:31:32 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:19:51 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
 
-void *ft_memchr(const void *s, int c, size_t n)
+void	*ft_memchr(const void *s, int c, size_t n)
 {
 	size_t i;
 

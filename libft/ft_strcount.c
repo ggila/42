@@ -6,11 +6,11 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/13 18:29:42 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/13 18:32:13 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:17:19 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_strcount(char *str, char c)
+int	ft_strcount(char *str, char c)
 {
 	int n;
 

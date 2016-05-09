@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/04 21:24:16 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/09 23:27:15 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/08/24 19:17:19 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_strncmp(const char *s1, const char *s2, size_t n)
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	if (!s1 || !s2)
 		return (0);
