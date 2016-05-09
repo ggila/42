@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS
+ft_table2
+(
+	id SMALLINT UNSIGNED
+		NOT NULL
+	,
+	name VARCHAR(11)
+		NOT NULL 
+)
+;
