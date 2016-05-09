@@ -6,13 +6,13 @@
 /*   By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 20:53:02 by ggilaber          #+#    #+#             */
-/*   Updated: 2014/11/09 23:29:43 by ggilaber         ###   ########.fr       */
+/*   Updated: 2015/01/19 19:29:53 by ggilaber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlen(char const *str)
+int	ft_strlen(char const *str)
 {
 	size_t n;
 
