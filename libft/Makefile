@@ -6,13 +6,17 @@
 #    By: ggilaber <ggilaber@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/11/03 13:17:44 by ggilaber          #+#    #+#              #
-#    Updated: 2014/11/13 21:33:18 by ggilaber         ###   ########.fr        #
+#    Updated: 2015/01/16 02:02:14 by ggilaber         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libft.a
+.PHONY : clean fclean re all
 
-INC = .
+CC = gcc
+
+FLAGS = -Wall -Werror -Wextra -O3
+
+NAME = libft.a
 
 SRC = ft_atoi.c ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c \
 	ft_isprint.c ft_toupper.c ft_tolower.c ft_strlen.c ft_putchar_fd.c \
@@ -27,20 +31,20 @@ SRC = ft_atoi.c ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c \
 	ft_strrchr.c ft_strnstr.c ft_strsplit.c ft_lstnew.c ft_putchar_list.c \
 	ft_putstr_list.c ft_putnbr_list.c ft_memclr.c ft_lstdelone.c ft_lstadd.c \
 	ft_lstdup.c ft_lstpush.c ft_lstiter.c ft_lstmap.c ft_lstdel.c ft_lstlen.c \
-	ft_strndup.c ft_strcount.c
-
-FLAGS = -Wall -Werror -Wextra -O3
+	ft_strndup.c ft_strcount.c ft_putstrstr.c ft_strstrlen.c
 
 OBJ = $(SRC:.c=.o)
 
+INC = -I./includes
+
 all : $(NAME)
 
-$(NAME) : $(OBJ) libft.h
+$(NAME) : $(OBJ)
 	ar rc  $(NAME) $(OBJ)
 	ranlib $(NAME)
 
-%.o : %.c libft.h
-	gcc -c $(FLAGS) $^ -I $(INC)
+%.o : %.c
+	gcc -c $(FLAGS) $^ $(INC)
 
 clean :
 	rm -rf $(OBJ)
