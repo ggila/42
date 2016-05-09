@@ -1,0 +1,12 @@
+[submodule "ft_p"]
+	path = ft_p
+	url = https://github.com/ggila/ft_p.git
+[submodule "raytracer"]
+	path = raytracer
+	url = https://github.com/ggila/raytracer.git
+[submodule "nm-otool"]
+	path = nm-otool
+	url = https://github.com/ggila/nm-otool.git
+[submodule "lib"]
+	path = lib
+	url = https://github.com/ggila/lib.git
